@@ -44,7 +44,7 @@ pub fn init() -> (
         // User deploying the contract,
         signer_account: root,
         // init method
-        init_method: new_default_meta(
+        init_method: new(
             root.valid_account_id()
         )
     );
